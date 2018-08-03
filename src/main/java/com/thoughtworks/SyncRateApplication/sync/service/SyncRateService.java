@@ -17,7 +17,7 @@ public class SyncRateService {
     private RestTemplate restTemplate;
 
     //web service resources endpoints
-    private final String GET_RATE_BY_HOTEL = "http://localhost:8090/get_rates/";
+    private final String GET_RATE_BY_HOTEL = "http://localhost:8500/get_rates/";
 
 
     public List<Rate> findRates(String hotel_code) {
